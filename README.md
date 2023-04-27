@@ -1,8 +1,8 @@
 # CodeClause_WineQuality-Prediction
-wine quality Prediction program that uses a Random Forest Classifier algorithm to train a model on a wine quality dataset. 
-Description-
- The wine quality data is stored in a CSV file named 'wine_quality.csv'. The first step is to load the data into a pandas DataFrame. We then split the dataset into training and testing sets using the train_test_split function from scikit-learn.
+A Decision Tree model for predicting the quality of wine using train_test_split, accuracy_score, and confusion_matrix functions from sklearn library. The results are then visualized using matplotlib.
 
-Next, we create an instance of the RandomForestClassifier class and fit it to the training data using the fit method. We then use the trained model to make predictions on the test set using the predict method.
+# Distribution of Wine Quality
+![image](https://user-images.githubusercontent.com/104827931/234780406-6df2e70a-ac15-4686-9f0b-ae5fdcdf90f6.png)
 
-Finally, we evaluate the accuracy of the model using the accuracy_score function from scikit-learn, which compares the predicted labels to the true labels and returns the fraction of correct predictions. The accuracy is printed to the console.
+# Confusion Matrix
+![image](https://user-images.githubusercontent.com/104827931/234780595-14082c4c-9236-43ac-b196-6a82c8c320ed.png)

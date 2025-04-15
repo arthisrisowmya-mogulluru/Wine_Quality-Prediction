@@ -1,4 +1,4 @@
-# CodeClause_WineQuality-Prediction
+# WineQuality-Prediction
 A Decision Tree model for predicting the quality of wine using train_test_split, accuracy_score, and confusion_matrix functions from sklearn library. The results are then visualized using matplotlib.
 
 # Distribution of Wine Quality
